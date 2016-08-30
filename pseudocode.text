@@ -1,0 +1,21 @@
+when user clicks submit
+
+$().submit(function())
+
+show result div on click
+
+
+if location-value drinks-value food-value match selection (all selectors must match)
+
+return result(s) in #result div
+  bfBrunchName
+  bfDrinkType
+  bfLocation
+  bfFood
+  bfThumbnail
+  bfDescription
+
+
+if no match for location-value drinks-value food-value
+
+return "no match for your selection"

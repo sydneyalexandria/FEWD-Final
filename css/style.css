@@ -58,24 +58,109 @@ aside {
   padding-top: 50px;
 }
 
+h2 {
+  font-size: 20px;
+  color: #333;
+}
+
 .navbar-inverse {
   background-color: rgba(255, 255, 255, 0.93);
 border-color: #080808;
 }
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #d28a00;
+    background-color: transparent;
+  }
 
 .starter-template {
-  padding: 40px 15px;
+  padding: 80px 15px;
   text-align: center;
   height:500px;
   background:  url("../chickandwaffles.jpg") no-repeat center top;
 }
 .headline {
-  background-color: #fff;
+  padding: 50px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
+
+.button {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #e3e3e3;
+  padding: 20px;
+  position: relative;
+  bottom: -50px;
+}
+
+.button a {
+  color: #d28a00;
+}
+
 .mid-section {
   background: #fff;
   color: #000;
   height: 350px;
   padding: 40px 15px;
   text-align: center;
+}
+
+#result-container {
+  background-color: #e3e3e3;
+  border: 10px solid #fff;
+  padding: 20px;
+}
+
+.submission {
+  padding: 30px;
+}
+
+input[type=submit] {
+  width: 75%;
+  font-size: 18px;
+  background-color: #FFC107;
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+.image-grid {
+  max-width: 100%;
+}
+.image-grid li img {
+  display: block;
+}
+
+.image-grid li {
+    width: 128px;
+    margin: 20px 0 0 35px;
+    float: left;
+    text-align: center;
+    font-family: "Helvetica Neue",sans-serif;
+    line-height: 17px;
+    color: #686f74;
+    height: 200px;
+    overflow: hidden;
+  }
+.info {
+  min-height: 200px;
+  background-color: #d28a00;
+  color: #fff;
+  padding: 20px;
+}
+span {
+  width:100%;
+}
+#boundary-stone, #ventnor-cafe {
+  display: none;
+}
+
+.navbar-toggle {
+  background-color: #FFC107;
+  border: 1px solid #FFC107;
+}
+
+footer {
+padding: 10px;
+background-color: #e3e3e3;
+border-top: 1px solid #000;
 }

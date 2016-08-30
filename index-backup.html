@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Bottomless Brunch Deal Finder">
     <meta name="author" content="">
 
@@ -40,7 +40,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#result-container">Find Brunch</a></li>
+            <li><a href="#brunch-picker">Find Brunch</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -53,10 +53,54 @@
 				<div class="headline col-lg-6 col-centered">
         	<h1>Need Brunch?</h1>
         	<p class="lead">Use the brunch picker to quickly find a spot that meets all of your brunching preferences.</p>
-					<div class="button"><a href="#result-container">Get Started</a></div>
+					<div class="button"><a href="#brunch-picker">Get Started</a></div>
 				</div>
       </div>
 
+			<!-- <div class="mid-section col-lg-12" id="brunch-picker">
+        <h1>What's your brunch style?</h1>
+        <form id="brunch-selection">
+        <fieldset>
+          <div class="col-lg-3 col-md-3">
+  					<h2>Location</h2>
+  					<select id="select-loc">
+    					<option value="Adams Morgan">Adams Morgan</option>
+    					<option value="Brookland">Brookland</option>
+    					<option value="Capitol Hill">Capitol Hill</option>
+    					<option value="Coloumbia Heights">Columbia Heights</option>
+  					</select>
+				  </div>
+  				<div class="col-lg-3 col-md-3">
+  					<h2>Drinks</h2>
+  					<select id="select-drink">
+    					<option value="Bottomless Mimosas">Bottomless Mimosas Only</option>
+    					<option value="Bottomless Mimosas and Mary's">Bottomless Mimosas and Mary's Only</option>
+    					<option value="Bottomless Drinks Plus">Bottomless Drinks +</option>
+  					</select>
+  				</div>
+          <div class="col-lg-3 col-md-3">
+  					<h2>Food</h2>
+  					<select id="select-food">
+    					<option value="Pre-Fixe">Pre-Fixe</option>
+    					<option value="A la Carte">A la Carte</option>
+    					<option value="All You Can Eat">All You Can Eat</option>
+  					</select>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h2>Price</h2>
+  					<select id="select-price">
+    					<option value="price-1">$</option>
+    					<option value="price-2">$$</option>
+    					<option value="price-3">$$$</option>
+              <option value="price-4">$$$$</option>
+  					</select>
+          </div>
+          <div class="col-lg-12 submission">
+            <input type="submit" value="Find your next brunch...">
+          </div>
+			</fieldset>
+      </form>
+    	</div> -->
 
       <div id="result-container" class="col-lg-12">
         <form id="filter">
@@ -76,98 +120,93 @@
 
         <ul id="mimosas" class="image-grid">
           <li data-id="id-1" data-type="mimosa" id="1-id">
-          <a href="#boundary-stone"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2016/07/DSC_0098.jpg" width="128" height="128" alt="" /></a>
-          <strong>Boundary Stone</strong></br>
+          <a href="#boundary-stone" > <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2016/07/DSC_0098.jpg" width="128" height="128" alt="" />
+            <strong>Boundary Stone</strong></br></a>
             <span data-type="hood">Bloomingdale</span></br>
-            <span data-type="price">$ 12</span>
+            <span data-type="price">$12</span>
           </li>
-          <li data-id="id-2" data-type="mimosa" id="2-id">
-            <a href="#ventnor-cafe"><img src="https://origin.ih.constantcontact.com/fs173/1101919505268/img/331.jpg?ver=1437529096000" width="128" height="128" alt="" /></a>
+          <li data-id="id-2" data-type="mimosa">
+            <img src="https://origin.ih.constantcontact.com/fs173/1101919505268/img/331.jpg?ver=1437529096000" width="128" height="128" alt="" />
             <strong>Ventnor Cafe</strong></br>
             <span data-type="hood">Adams Morgan</span></br>
-            <span data-type="price">$ 14</span>
+            <span data-type="price">$14</span>
           </li>
           <li data-id="id-3" data-type="util">
-          <a href=""><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/01/DSC_0362.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/01/DSC_0362.jpg" width="128" height="128" alt="" />
             <strong>Medium Rare</strong></br>
             <span data-type="hood">Capitol Hill</span></br>
-            <span data-type="price">$ 23</span>
+            <span data-type="price">$23</span>
           </li>
           <li data-id="id-4" data-type="mimosa">
-          <a href=""><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2010/11/20101110-024207.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2010/11/20101110-024207.jpg" width="128" height="128" alt="" />
             <strong>Red Rocks</strong></br>
             <span data-type="hood">Columbia Heights</span></br>
-            <span data-type="price">$ 15</span>
+            <span data-type="price">$15</span>
           </li>
           <li data-id="id-5" data-type="util">
-            <a href=""><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/04/DSC_0061.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/04/DSC_0061.jpg" width="128" height="128" alt="" />
             <strong>Catch 15</strong></br>
             <span data-type="hood">Downtown</span></br>
-            <span data-type="price">$ 40</span>
+            <span data-type="price">$40</span>
           </li>
           <li data-id="id-6" data-type="util">
-            <a href=""><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/06/lincoln-brunch-donuts.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/06/lincoln-brunch-donuts.jpg" width="128" height="128" alt="" />
             <strong>Lincoln Restaurant</strong></br>
             <span data-type="hood">Downtown</span></br>
-            <span data-type="price">$ 37</span>
+            <span data-type="price">$37</span>
           </li>
           <li data-id="id-7" data-type="util">
-            <a href="#agora"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/04/11.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/04/11.jpg" width="128" height="128" alt="" />
             <strong>Agora</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 34.99</span>
+            <span data-type="price">$34.99</span>
           </li>
           <li data-id="id-8" data-type="util">
-            <a href="#bar-charley"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/03/DSC_0102.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/03/DSC_0102.jpg" width="128" height="128" alt="" />
             <strong>Bar Charley</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 23.95</span>
+            <span data-type="price">$23.95</span>
           </li>
           <li data-id="id-9" data-type="mimosa">
-            <a href="#boqueria"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/09/Boqueria-7.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2014/09/Boqueria-7.jpg" width="128" height="128" alt="" />
             <strong>Boqueria</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 39</span>
+            <span data-type="price">$39</span>
           </li>
           <li data-id="id-10" data-type="mimosa">
-            <a href="#level-one"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/10/DSCN0371-1008x756.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/10/DSCN0371-1008x756.jpg" width="128" height="128" alt="" />
             <strong>Level One</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 15</span>
+            <span data-type="price">$15</span>
           </li>
           <li data-id="id-11" data-type="mimosa">
-            <a href="#madhatter"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2012/04/DSC_0135-300x199.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2012/04/DSC_0135-300x199.jpg" width="128" height="128" alt="" />
             <strong>Madhatter</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 12</span>
+            <span data-type="price">$12</span>
           </li>
           <li data-id="id-12" data-type="mimosa">
-            <a href="#scion"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/06/DSC_00011-1008x670.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2011/06/DSC_00011-1008x670.jpg" width="128" height="128" alt="" />
             <strong>Scion</strong></br>
             <span data-type="hood">Dupont Circle</span></br>
-            <span data-type="price">$ 14</span>
+            <span data-type="price">$14</span>
           </li>
           <li data-id="id-13" data-type="util">
-            <a href="#sequoia"><img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/11/DSC_0033.jpg" width="128" height="128" alt="" /></a>
+            <img src="http://www.thebottomlessmimosa.com/wp-content/uploads/2015/11/DSC_0033.jpg" width="128" height="128" alt="" />
             <strong>Sequoia</strong></br>
             <span data-type="hood">Georgetown</span></br>
-            <span data-type="price">$ 54.95</span>
+            <span data-type="price">$54.95</span>
           </li>
         </ul>
       </div>
-      <div>
-        <div id="boundary-stone" class="col-lg-12 info">
+      <div class="col-lg-12 info">
+        <div id="boundary-stone">
           <h1>Boundary Stone</h1>
-          <p>Bottomless Mimosas and Bloody Marys are $12</p>
-        </div>
-        <div id="ventnor-cafe" class="col-lg-12 info">
-          <h1>Ventnor Cafe</h1>
-          <p>$14 Marys and Mimosas on Saturdays.</p>
         </div>
       </div>
 
 		<footer class="col-lg-12">
-      <p>Find more brunches using our <a href="http://www.thebottomlessmimosa.com/bottomless-deals/">Bottomless Brunch Guide</a></p>
+      <p>Find more brunches using our bottomless brunch guide</p>
 		</footer>
 
     </div><!-- /.container -->
@@ -179,6 +218,9 @@
 
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    <!-- <script src="brunch.js"></script> -->
     <script   src="https://code.jquery.com/jquery-1.3.2.min.js"   integrity="sha256-yDcKLQUDWenVBazEEeb0V6SbITYKIebLySKbrTp2eJk="   crossorigin="anonymous"></script>
     <script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.compatibility.js"></script>
     <script src="quicksand.js"></script>

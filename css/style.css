@@ -1,3 +1,17 @@
+/*
+
+Hey Sydney!
+
+I seriously can't tell you how impressed I am by your final project. Not only is it awesome and incorporates a ton of things we learned from CSS layout to JavaScript, but the concept is awesome and well-executed!
+
+You were being hard on yourself; you seriously knocked this out of the park. The JavaScript you were working through which were incomplete is incredibly advanced stuff and shows that you really have a solid and impressive understanding of JavaScript after only a few hours of lessons! That is seriously impressive, and way more than could be said about me when I finished FEWD.
+
+One suggestion is that you might want to save the images you have locally; you never want to rely on a third-party for image hosting since you have no control over it and they could get rid of it at any point in time.
+
+Let me know if you have any questions, but you did a fantastic job; I'm so proud!
+
+*/
+
 /******************************************
 /* SETUP
 /*******************************************/
@@ -160,7 +174,7 @@ span {
 }
 
 footer {
-padding: 10px;
-background-color: #e3e3e3;
-border-top: 1px solid #000;
+  padding: 10px;
+  background-color: #e3e3e3;
+  border-top: 1px solid #000;
 }
